@@ -11,11 +11,11 @@
         {% if form.valide == true %}
             <h1 class="h3 mb-3 font-weight-normal">Inscription réussie</h1>
             <h1 class="h3 mb-3 font-weight-normal">Voici votre identifiant : {{form.email}}</h1>
-            {% if form.role == 1 %}
+            {#{% if form.role == 1 %}
                 <h1 class="h3 mb-3 font-weight-normal">Vous êtes un développeur</h1>
             {% else %}
                 <h1 class="h3 mb-3 font-weight-normal">Vous êtes administrateur du site</h1>
-            {% endif %}
+            {% endif %}#}
             <h1 class="h3 mb-3 font-weight-normal">Un email de validation vous a été envoyé</h1>
             <h1 class="h3 mb-3 font-weight-normal">Veuillez valider votre email dans les 24h qui suivent ou votre compte sera supprimé</h1>
         {% else %}
