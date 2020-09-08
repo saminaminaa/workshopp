@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+{% block contenu %}
+        <form method="POST" action="index.php?page=connexion">
+            <div class="form-group">
+                <label for="Email">Email address</label>
+                <input type="email" class="form-control" id=Email" name="Email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="Mdp">Password</label>
+                <input type="password" class="form-control" id="Mdp" name="Mdp">
+            </div>
+            <small><a href="index.php?page=inscription">S'inscrire</a></small>
+            <button type="submit" class="btn btn-primary" name="btConnecter">Submit</button>
+        </form>
+
+{% endblock %}

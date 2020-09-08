@@ -1,7 +1,8 @@
 <?php
 function getPage()
 {
-    $lesPages['accueil'] = "actionAccueil;0";
+    $lesPages['accueil'] = "actionAccueil";
+    $lesPages['connexion'] = "actionConnexion";
 
     //if ($db != null) {
     if (isset($_GET['page'])) {
