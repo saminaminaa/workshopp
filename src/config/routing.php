@@ -41,4 +41,3 @@ function getPage()
     //}
     return $contenu;
 }
-
