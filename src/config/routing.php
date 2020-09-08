@@ -2,6 +2,7 @@
 function getPage()
 {
     $lesPages['accueil'] = "actionAccueil;0";
+    $lesPages['inscription'] = "actionInscription;0";
 
     //if ($db != null) {
     if (isset($_GET['page'])) {
@@ -12,6 +13,7 @@ function getPage()
 
     if (!isset($lesPages[$page])) {
         $page = 'accueil';
+
     }
     $explose = explode(";", $lesPages[$page]); // Nous découpons la ligne du tableau sur le  // caractère « ; » Le résultat est stocké dans le tableau $explose
     $role = $explose[1]; // Le rôle est dans la 2ème partie du tableau $explose
