@@ -1,0 +1,169 @@
+{# empty Twig template #}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-esquiv="X-UA6Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> {% block title %} ShowShop - {% endblock %}</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    {% block style %} {% endblock %}
+</head>
+<body class="bg-light">
+{% block body %}
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd"> <!height: 200px pr modifier taille de la navbar>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php">ShowShop</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.php">Accueil</a></li>
+                    {%if session.login is defined %}
+                        {%if session.role == 1 %}
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" ariahaspopup="true" aria-expanded="false">Administration</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.php?page=produit">Produit</a></li>
+                                    <li><a class="dropdown-item" href="index.php?page=type">Type</a></li>
+                                    <li><a class="dropdown-item" href="index.php?page=utilisateur">Utilisateur</a></li>
+
+
+                                </ul>
+                            </li>
+                        {% endif %}
+                    {% endif %}
+
+                    <li><a href="index.php?page=achat">Boutique</a></li>
+                    {%if session.login is defined %}
+                        <li><a href="index.php?page=deconnexion">Se déconnecter</a></li>
+                    {% else %}
+                        <li><a href="index.php?page=connexion">Se connecter</a></li>
+                    {% endif %}
+                    {%if session.login is defined %}
+                        <li><a href="#">{{session.login}}</a></li>
+                    {% endif %}
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" ariahaspopup="true" aria-expanded="false">Plus d'options</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.php?page=apropos">À propos</a></li>
+                            <li><a class="dropdown-item" href="index.php?page=contact">Contact</a></li>
+                            <li><a class="dropdown-item" href="index.php?page=mentionslegales">Mentions légales</a></li>
+                            <li><a class="dropdown-item" href="index.php?page=commentaire">Commentaires</a></li>
+
+                        </ul>
+                    </li>
+                    {%if session.login is defined %}
+                        <li><a href="index.php?page=panier">Mon panier</a></li>
+                        <li><a href="index.php?page=compte">Mon compte</a></li>
+                    {% endif %}
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" arialabel="Rechercher">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">OK</button>
+                </form>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="col-md-2 hidden-md" >
+
+                {#<img src="images/eaupiscine.jpg">#}
+            </div>
+            <div class=" col-md-8 col-12" id="milieu">
+
+                {% block contenu %}
+
+
+                {% endblock %}
+
+            </div>
+            <div class="col-md-2 hidden-md" >
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+<!--footer-->
+{% block footer %}
+    <div class="container-fluid">
+        <div class="row" >
+            <div id="footer">
+
+                <!-- Footer -->
+                <footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: #e3f2fd;" id='testfooter'>
+
+
+
+
+                    <hr>
+
+                    <!-- Call to action -->
+                    <ul class="list-unstyled list-inline text-center py-2">
+                        <li class="list-inline-item">
+                            <h5 class="mb-1">Toujours pas inscrit ?</h5>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="index.php?page=inscription" class="btn btn-danger btn-rounded">S'inscrire</a>
+                        </li>
+                    </ul>
+                    <!-- Call to action -->
+
+                    <hr>
+
+                    <div align="center">
+                        <ul class="list-unstyled">
+                            <li>
+
+                                <a href="index.php?page=apropos"> À propos </a>
+                                <a href="index.php?page=contact"> Nous contacter </a>
+                                <a href="index.php?page=mentionslegales"> Mentions légales </a>
+                                <a href="index.php?page=commentaire"> Laisser un commentaire </a>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3" style="padding-top: 1%; padding-bottom: 1%">© 2020 Copyright:
+                        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                    </div>
+                    <!-- Copyright -->
+
+                </footer>
+                <!-- Footer -->
+
+
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery3.2.1.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
