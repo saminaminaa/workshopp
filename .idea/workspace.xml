@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/vue/images/ampoule.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/images/arbre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/images/cadi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/images/feuille.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/images/fille.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/images/off.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/images/prise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/images/touche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/g" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/images/g" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\EPSI B2\work\workshopp\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpStormWorkshopConfiguration">
+    <option name="enabled" value="true" />
+    <option name="isEnabled" value="true" />
+  </component>
+  <component name="ProjectId" id="1hDZtFJIONDfXe9xo29gd4GzMUw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EPSI B2\work\workshopp\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EPSI B2\work\workshopp\src\vue" />
+      <recent name="D:\EPSI B2\work\workshopp\workshop\src" />
+      <recent name="D:\EPSI B2\work\workshopp\workshop" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="" />
+      <created>1599547835582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599547835582</updated>
+      <workItem from="1599547841627" duration="15104000" />
+    </task>
+    <task id="LOCAL-00001" summary="t">
+      <created>1599554541093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599554541093</updated>
+    </task>
+    <task id="LOCAL-00002" summary="t">
+      <created>1599555076116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599555076116</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fichier">
+      <created>1599555242914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599555242914</updated>
+    </task>
+    <task id="LOCAL-00004" summary="repertoires">
+      <created>1599555453698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599555453699</updated>
+    </task>
+    <task id="LOCAL-00005" summary="base et routing">
+      <created>1599555987283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599555987283</updated>
+    </task>
+    <task id="LOCAL-00006" summary="base et routing2">
+      <created>1599557311013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599557311013</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lib">
+      <created>1599557865913</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599557865913</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lib off">
+      <created>1599558021055</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599558021055</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lib off">
+      <created>1599558036942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599558036942</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lib off">
+      <created>1599558056919</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599558056919</updated>
+    </task>
+    <task id="LOCAL-00011" summary="correction index">
+      <created>1599558651291</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599558651291</updated>
+    </task>
+    <task id="LOCAL-00012" summary="correction index">
+      <created>1599559473033</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599559473033</updated>
+    </task>
+    <task id="LOCAL-00013" summary="correction index">
+      <created>1599564887860</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599564887860</updated>
+    </task>
+    <task id="LOCAL-00014" summary="correction index">
+      <created>1599564971941</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599564971941</updated>
+    </task>
+    <task id="LOCAL-00015" summary="index">
+      <created>1599566149002</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599566149002</updated>
+    </task>
+    <task id="LOCAL-00016" summary="inscr">
+      <created>1599566474966</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599566474966</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="t" />
+    <MESSAGE value="fichier" />
+    <MESSAGE value="repertoires" />
+    <MESSAGE value="base et routing" />
+    <MESSAGE value="base et routing2" />
+    <MESSAGE value="lib" />
+    <MESSAGE value="lib off" />
+    <MESSAGE value="correction index" />
+    <MESSAGE value="index" />
+    <MESSAGE value="inscr" />
+    <option name="LAST_COMMIT_MESSAGE" value="inscr" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Deployment" timestamp="1599557168989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1599557168989" />
+    <state x="361" y="70" key="#Options" timestamp="1599556549749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1599556549749" />
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599558046046">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599558046046" />
+    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599566473844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599566473844" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599555596175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599555596175" />
+    <state x="644" y="305" width="258" height="213" key="Github.ShareDialog" timestamp="1599547863342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="644" y="305" width="258" height="213" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599547863342" />
+    <state x="546" y="117" key="Github.UntrackedFilesDialog" timestamp="1599547870747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="546" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599547870747" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1599555890703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599555890703" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1599550965934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599550965934" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599566477525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599566477525" />
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599569258384">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599569258384" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599550956482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599550956482" />
+  </component>
+</project>
