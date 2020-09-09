@@ -6,7 +6,7 @@ function getPage()
     $lesPages['connexion'] = "actionConnexion";
     $lesPages['inscription'] = "actionInscription";
     $lesPages['MaConso'] = "actionConsommation";
-    $lesPages['ajoutmachine'] = "actionAjoutmachine";
+    $lesPages['gestionmachines'] = "actionGestionmachines";
     $lesPages['apropos'] = "actionApropos";
     $lesPages['listeutilisateur'] = "actionListeutilisateur";
     $lesPages['modifmachine'] = "actionModifmachine";

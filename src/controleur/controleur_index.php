@@ -16,8 +16,8 @@ function actionConsommation($twig){
     echo $twig->render('MaConso.html.twig', array());
 }
 
-function actionAjoutmachine($twig){
-    echo $twig->render('ajoutmachine.html.twig', array());
+function actionGestionmachines($twig){
+    echo $twig->render('gestionmachines.html.twig', array());
 }
 
 function actionApropos($twig){
