@@ -40,3 +40,7 @@ function actionUtilisateurs($twig){
     echo $twig->render('utilisateurs.html.twig', array());
 }
 
+function actionModifprofil($twig){
+    echo $twig->render('modifprofil.html.twig', array());
+}
+

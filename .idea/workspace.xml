@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/vue/modifprofil.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/profil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/profil.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue/MaConso.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/MaConso.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
-      <workItem from="1599635780070" duration="9852000" />
+      <workItem from="1599635780070" duration="10561000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -304,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599651392137</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="profil mignon">
+      <created>1599651697394</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599651697394</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +343,8 @@
     <MESSAGE value="image qui saffiche" />
     <MESSAGE value="tite photo aie aie aie" />
     <MESSAGE value="french" />
-    <option name="LAST_COMMIT_MESSAGE" value="french" />
+    <MESSAGE value="profil mignon" />
+    <option name="LAST_COMMIT_MESSAGE" value="profil mignon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -350,10 +359,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599637034012" />
-    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599651390897">
+    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599651695632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599651390897" />
+    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599651695632" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599636984746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -378,10 +387,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599651635501" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599651394380">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599651700141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599651394380" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599651700141" />
     <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599650381075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

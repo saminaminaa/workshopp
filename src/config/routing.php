@@ -12,6 +12,7 @@ function getPage()
     $lesPages['modifmachine'] = "actionModifmachine";
     $lesPages['profil'] = "actionProfil";
     $lesPages['utilisateurs'] = "actionUtilisateurs";
+    $lesPages['modifprofil'] = "actionModifprofil";
 
 
     if(isset($_GET['page'])){
