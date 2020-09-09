@@ -12,7 +12,6 @@ function getPage($db)
     $lesPages['modifmachine'] = "actionModifmachine";
     $lesPages['profil'] = "actionProfil";
     $lesPages['utilisateurs'] = "actionUtilisateurs";
-    $lesPages['modifprofil'] = "actionModifprofil";
 
 
     if ($db != null) {
