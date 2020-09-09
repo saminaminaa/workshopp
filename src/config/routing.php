@@ -5,6 +5,12 @@ function getPage()
     $lesPages['accueil'] = "actionAccueil";
     $lesPages['connexion'] = "actionConnexion";
     $lesPages['inscription'] = "actionInscription";
+    $lesPages['ajoutmachine'] = "actionAjoutmachine";
+    $lesPages['apropos'] = "actionApropos";
+    $lesPages['listeutilisateur'] = "actionListeutilisateur";
+    $lesPages['modifmachine'] = "actionModifmachine";
+    $lesPages['profil'] = "actionProfil";
+    $lesPages['utilisateurs'] = "actionUtilisateurs";
 
     if(isset($_GET['page'])){
         $page = $_GET['page'];
