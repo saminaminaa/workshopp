@@ -12,6 +12,7 @@ function getPage($db)
     $lesPages['modifmachine'] = "actionModifmachine";
     $lesPages['profil'] = "actionProfil";
     $lesPages['utilisateurs'] = "actionUtilisateurs";
+    $lesPages['deconnexion'] = "actionDeconnexion";
 
 
     if ($db != null) {

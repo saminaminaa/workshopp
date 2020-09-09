@@ -26,3 +26,37 @@ function actionInscription($twig,$db){
     echo $twig->render('inscription.html.twig', array('form'=>$form));
 
 }
+
+function actionConnexion($twig, $db){
+    $form = array();
+    $form['valide'] = true;
+    if (isset($_POST['btConnecter'])){
+        $Email = $_POST['Email'];
+        $Password = $_POST['Password'];
+        $utilisateur = new Utilisateur($db);
+        $unUtilisateur = $utilisateur->connect($Email);
+        if ($unUtilisateur!=null){
+            if(!password_verify($Password,$unUtilisateur['Password'])){
+                $form['valide'] = false;
+                $form['message'] = 'Login ou mot de passe incorrect';
+            }
+            else{
+                $_SESSION['login'] = $Email;
+                $_SESSION['role'] = $unUtilisateur['idRole'];
+                header("Location:index.php");
+            }
+        }
+        else{
+            $form['valide'] = false;
+            $form['message'] = 'Login ou mot de passe incorrect';
+
+        }
+    }
+    echo $twig->render('connexion.html.twig', array('form'=>$form));
+}
+
+function actionDeconnexion($twig){
+    session_unset();
+    session_destroy();
+    header("Location:index.php");
+}
