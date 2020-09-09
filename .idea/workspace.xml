@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
-      <workItem from="1599635780070" duration="7723000" />
+      <workItem from="1599635780070" duration="7981000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -276,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599645106064</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="image qui saffiche pas">
+      <created>1599645811736</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599645811736</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +307,8 @@
     <MESSAGE value="jcp quoi ecrir" />
     <MESSAGE value="si tu lis ça ntm" />
     <MESSAGE value="adieu carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="adieu carousel" />
+    <MESSAGE value="image qui saffiche pas" />
+    <option name="LAST_COMMIT_MESSAGE" value="image qui saffiche pas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -318,10 +323,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599637034012" />
-    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599645104786">
+    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599645810602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599645104786" />
+    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599645810602" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599636984746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -342,10 +347,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599550965934" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599645110402">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599645814419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599645110402" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599645814419" />
     <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599644744951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
