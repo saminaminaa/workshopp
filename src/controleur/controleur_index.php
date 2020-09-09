@@ -12,6 +12,10 @@ function actionInscription($twig){
     echo $twig->render('inscription.html.twig', array());
 }
 
+function actionConsommation($twig){
+    echo $twig->render('MaConso.html.twig', array());
+}
+
 function actionAjoutmachine($twig){
     echo $twig->render('ajoutmachine.html.twig', array());
 }
@@ -35,3 +39,4 @@ function actionProfil($twig){
 function actionUtilisateurs($twig){
     echo $twig->render('utilisateurs.html.twig', array());
 }
+
