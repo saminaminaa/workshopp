@@ -26,7 +26,7 @@
 
 
                     <div>
-                        <img class="img-fluid" alt="Responsive image" src="https://www.blogduwebdesign.com/wp-content/uploads/2019/06/bdw-image-fonds-ecran-1.jpg"/>
+                        <img class="img-fluid" alt="Responsive image" src="images/fille.jpg"/>
                     </div>
                     <div class="input-group">
 
@@ -44,7 +44,7 @@
                     {{ unUtilisateur.prenom }} {{ unUtilisateur.nom }}
                 </h5>
                 <h6>
-                    Web Developer and Designer
+                    Bonjour EcoUtilisateur voici ton profil
                 </h6>
                 <p>Date du jour : {{ unUtilisateur.date }} </p>
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -52,7 +52,7 @@
                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Langages connus</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Vos machines</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="nav-tabContent"  style="padding-top:5%">
@@ -105,7 +105,7 @@
 
 
                             <li class="list-group-item list-group-item-action active">
-                                Liste de vos langages connus :
+                                Liste de vos machines :
                             </li>
                             <div class="table-responsive">
                                 <form  class="form-signin" action="index.php?page=profil" method="post" enctype="application/x-www-form-urlencoded">
@@ -119,7 +119,7 @@
                                         {% endfor %}
                                     </table>
                                     <button class="btn btn-lg btn-primary btn-block" type="submit" name="btSupprimer">Supprimer</button>
-                                    <a class="btn btn-lg btn-primary btn-block" href="index.php?page=modiflangages">Ajouter des langages</a>
+                                    <a class="btn btn-lg btn-primary btn-block" href="index.php?page=modiflangages">Ajouter des machines</a>
                                     <!--<a href="index.php?page=modif-langages">Modifier et/ou ajouter des languages</a>-->
                                 </form>
                             </div>
