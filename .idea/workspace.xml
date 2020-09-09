@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vue/images/ampoule.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/arbre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/cadi.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/feuille.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/fille.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/off.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/prise.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/touche.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/ajoutmachine.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/apropos.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/listeutilisateur.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/modifmachine.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/profil.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/utilisateurs.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vue/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/g" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/images/g" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -64,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="D:/ce qui etait sur disque C/NetBeansProjects/ppe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -100,7 +96,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599547835582</updated>
-      <workItem from="1599547841627" duration="15104000" />
+      <workItem from="1599547841627" duration="15839000" />
+      <workItem from="1599635780070" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -214,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599566474966</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="image">
+      <created>1599569902375</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599569902375</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +236,8 @@
     <MESSAGE value="correction index" />
     <MESSAGE value="index" />
     <MESSAGE value="inscr" />
-    <option name="LAST_COMMIT_MESSAGE" value="inscr" />
+    <MESSAGE value="image" />
+    <option name="LAST_COMMIT_MESSAGE" value="image" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599557168989">
@@ -243,18 +248,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1599556549749" />
-    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599558046046">
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599637034012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599558046046" />
-    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599566473844">
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599637034012" />
+    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599569900981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599566473844" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599555596175">
+    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599569900981" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599636984746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599555596175" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599636984746" />
     <state x="644" y="305" width="258" height="213" key="Github.ShareDialog" timestamp="1599547863342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -271,14 +276,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599550965934" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599566477525">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599569905700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599566477525" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599569905700" />
     <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599569258384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599569258384" />
+    <state x="640" y="305" key="publish.login" timestamp="1599570586843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="640" y="305" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1599570586843" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599550956482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
