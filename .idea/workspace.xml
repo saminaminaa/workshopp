@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vue/modifprofil.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/parametres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/mentionlegales.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/MaConso.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/MaConso.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controleur/controleur_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controleur/controleur_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/ce qui etait sur disque C/NetBeansProjects/ppe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/config" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -67,6 +71,7 @@
       <recent name="D:\EPSI B2\work\workshopp\workshop" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EPSI B2\work\workshopp\src\config" />
       <recent name="D:\EPSI B2\work\workshopp\src" />
     </key>
   </component>
@@ -93,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
-      <workItem from="1599635780070" duration="10561000" />
+      <workItem from="1599635780070" duration="13604000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -312,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599651697394</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="modif profil ok">
+      <created>1599652325370</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1599652325370</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +356,8 @@
     <MESSAGE value="tite photo aie aie aie" />
     <MESSAGE value="french" />
     <MESSAGE value="profil mignon" />
-    <option name="LAST_COMMIT_MESSAGE" value="profil mignon" />
+    <MESSAGE value="modif profil ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif profil ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -355,14 +368,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1599556549749" />
-    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599637034012">
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599653487626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599637034012" />
-    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599651695632">
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599653487626" />
+    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599652323506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599651695632" />
+    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599652323506" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599636984746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -387,14 +400,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599651635501" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599651700141">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599652327661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599651700141" />
-    <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599650381075">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599652327661" />
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599655088078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599650381075" />
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599655088078" />
     <state x="640" y="305" key="publish.login" timestamp="1599570586843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

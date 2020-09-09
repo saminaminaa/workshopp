@@ -44,3 +44,7 @@ function actionModifprofil($twig){
     echo $twig->render('modifprofil.html.twig', array());
 }
 
+function actionMentionlegales($twig){
+    echo $twig->render('mentionlegales.html.twig', array());
+}
+
