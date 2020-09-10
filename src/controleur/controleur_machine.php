@@ -32,10 +32,15 @@ function actionGestionmachines($twig,$db){
 
 function actionConsoMachine($twig,$db){
     $form = array();
+    $form['Calcul'] = false;
     $machine = new Machine($db);
+    $utilisateur = new Utilisateur($db);
     $listeMachine = $machine->select();
+    $Energie = NULL;
+    $Prix = NULL;
 
     if(isset($_POST['btCalcul'])){
+        $form['Calcul']= true;
         $Machine = $_POST["Machine"];
         $Puissance = $_POST["Puissance"];
         $Day = $_POST["Day"];
@@ -46,14 +51,13 @@ function actionConsoMachine($twig,$db){
         $Year = floatval($Year);
 
         $Energie = ($Puissance * $Day * $Year)/1000;
-        print($Energie);
 
-        if($Energie != NULL){
+        $Energie = floatval($Energie);
+        $Prix = $Energie * 0.1798;
+        $unUtilisateur = $utilisateur->selectByEmail($_SESSION["login"]);
 
-        }
-
-
+        $exec = $machine->insertConso($unUtilisateur['id'],$Machine,$Puissance,$Day,$Year,$Energie,$Prix);
     }
-    echo $twig->render('consoMachine.html.twig', array('listeMachine'=>$listeMachine));
+    echo $twig->render('consoMachine.html.twig', array('listeMachine'=>$listeMachine,'Energie'=>$Energie, 'Prix'=>$Prix,'form'=>$form));
 
 }

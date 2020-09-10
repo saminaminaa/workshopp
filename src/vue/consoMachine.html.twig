@@ -3,6 +3,7 @@
 
 {% block contenu %}
 
+    {% if form.Calcul == false %}
     <br>
     <h2>Calcul de consommation</h2>
     <br>
@@ -30,7 +31,12 @@
         <button class="btn btn-primary btn-user btn-block" type="submit" name="btCalcul" id="btCalcul">
             Calcul de la consommation
         </button>
-    </form>
+        <small><a href="index.php?page=consoAuto">Cliquez ici si vous avez un appareil connecté à votre ordinateur</a></small>
 
+    </form>
+{% else %}
+    <h2>Votre consommation est de : {{ Energie }} Kw/h</h2>
+    <h2>Ce qui équivaut à une dépense de : {{ Prix }} €/an</h2>
+    {% endif %}
 
 {% endblock %}
