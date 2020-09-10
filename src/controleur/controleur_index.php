@@ -16,7 +16,6 @@ function actionApropos($twig){
     echo $twig->render('apropos.html.twig', array());
 }
 
-
 function actionListeutilisateur($twig){
     echo $twig->render('listeutilisateur.html.twig', array());
 }
@@ -30,7 +29,5 @@ function actionUtilisateurs($twig){
     echo $twig->render('utilisateurs.html.twig', array());
 }
 
-function actionModifprofil($twig){
-    echo $twig->render('modifprofil.html.twig', array());
-}
+
 

@@ -3,6 +3,18 @@
 function actionGestionmachines($twig,$db){
     $form = array();
     $machine = new Machine($db);
+    if(isset($_GET['id'])){
+        $exec=$machine->delete($_GET['id']);
+        if (!$exec){
+            $form['valide'] = false;
+            $form['message'] = 'Problème de suppression dans la table produit';
+        }
+        else{
+            $form['valide'] = true;
+            $form['message'] = 'Produit supprimé avec succès';
+        }
+    }
+
     $listeMachine = $machine->select();
     if (isset($_POST['btAjouter'])) {
         $Nom = $_POST['Nom'];
