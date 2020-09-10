@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controleur/controleur_machine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modele/class_machine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/g" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/parametres.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/parametres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controleur/controleur_modifprofil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controleur/_controleurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controleur/_controleurs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controleur/controleur_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controleur/controleur_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modele/_classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modele/_classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/gestionmachines.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/gestionmachines.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vue/inscription.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/inscription.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue/modifprofil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/modifprofil.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,7 @@
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
       <workItem from="1599635780070" duration="15123000" />
-      <workItem from="1599722667032" duration="4158000" />
+      <workItem from="1599722667032" duration="5297000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -357,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599728287578</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="pu dbug">
+      <created>1599728394289</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1599728394289</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +368,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lib" />
     <MESSAGE value="lib off" />
     <MESSAGE value="correction index" />
     <MESSAGE value="index" />
@@ -390,7 +392,8 @@
     <MESSAGE value="AZY LA" />
     <MESSAGE value="push sans erreur" />
     <MESSAGE value="profil fini" />
-    <option name="LAST_COMMIT_MESSAGE" value="profil fini" />
+    <MESSAGE value="pu dbug" />
+    <option name="LAST_COMMIT_MESSAGE" value="pu dbug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -405,10 +408,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599653487626" />
-    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599728285791">
+    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599728393295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599728285791" />
+    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599728393295" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599724480974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -429,10 +432,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="513" y="132" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1599728368833" />
-    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1599724572301">
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1599728749365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599724572301" />
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599728749365" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1599550965934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -441,10 +444,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599651635501" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599728291192">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599728397952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599728291192" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599728397952" />
     <state x="497" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1599722678372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
