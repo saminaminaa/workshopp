@@ -1,0 +1,36 @@
+{% extends "base.html.twig" %}
+{% block title %} {{ parent() }} Gestion des machines {% endblock %}
+
+{% block contenu %}
+
+    <br>
+    <h2>Calcul de consommation</h2>
+    <br>
+    <form class="form-signin" action="index.php?page=consoMachine" method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <select name="Machine" id="Machine" class="col-md-12 form-control form-control-user">
+                    {% for m in listeMachine %}
+                    <option value="{{ m.id }}">{{ m.LibelleMachine }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="Puissance" id="Puissance" placeholder="Puissance (En W)">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="Day" id="Day" placeholder="Heures d'utilisation par jour">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="Year" id="Year" placeholder="Jours d'utilisation par an">
+            </div>
+        </div>
+        <button class="btn btn-primary btn-user btn-block" type="submit" name="btCalcul" id="btCalcul">
+            Calcul de la consommation
+        </button>
+    </form>
+
+
+{% endblock %}

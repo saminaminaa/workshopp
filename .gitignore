@@ -1,4 +1,4 @@
 
 src/config/parametres.php
 src/lib/
-
+!/src/config/parametres.php
