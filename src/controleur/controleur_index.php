@@ -24,15 +24,15 @@ function actionModifmachine($twig){
     echo $twig->render('modifmachine.html.twig', array());
 }
 
-function actionProfil($twig){
-    echo $twig->render('profil.html.twig', array());
-}
 
 function actionUtilisateurs($twig){
     echo $twig->render('utilisateurs.html.twig', array());
 }
 
-function actionModifprofil($twig){
-    echo $twig->render('modifprofil.html.twig', array());
+function actionMentionlegales($twig){
+    echo $twig->render('mentionlegales.html.twig', array());
 }
 
+function actionMaintenance($twig){
+    echo $twig->render('maintenance.html.twig', array());
+}

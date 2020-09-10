@@ -6,6 +6,7 @@
 
 {% block MonBlock %}
 
+<<<<<<< HEAD
     {% if form.valide is defined %}
     {% if form.valide == true %}
         <h2 class="text-center">Inscription réussie</h2>
@@ -16,10 +17,19 @@
         <h1 class="text-center">Erreur : {{ form.message }}</h1>
         <h1 class="text-center"><a href="index.php?page=inscription">Retourner sur la page d'inscription</a> </h1>
     {% endif %}
+=======
+    {% if form.valide == true %}
+        <div class="alert alert-danger" role="alert">
+            {{ form.message }}
+        </div>
+
+>>>>>>> 85599c49e2988766a7f8b7a8408d71fff86ac355
     {% else %}
 
 
-<body class="bg-gradient-primary">
+
+
+    <body class="bg-gradient-primary">
 
 <div class="container">
 
@@ -27,7 +37,8 @@
         <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
-                <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+                <div style="padding-right: 4%">
+                 <img src="images/planete.jpg"> </div> </div>
                 <div class="col-lg-7">
                     <div class="p-5">
                         <div class="text-center">

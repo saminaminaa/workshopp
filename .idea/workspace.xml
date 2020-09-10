@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/config" />
+    <property name="last_opened_file_path" value="D:/ce qui etait sur disque C/NetBeansProjects/ppe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -94,7 +92,7 @@
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
       <workItem from="1599635780070" duration="15123000" />
-      <workItem from="1599722667032" duration="643000" />
+      <workItem from="1599722667032" duration="7220000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -334,7 +332,49 @@
       <option name="project" value="LOCAL" />
       <updated>1599722916378</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="push sans erreur">
+      <created>1599723451315</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1599723451315</updated>
+    </task>
+    <task id="LOCAL-00036" summary="profil fini">
+      <created>1599728287578</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1599728287578</updated>
+    </task>
+    <task id="LOCAL-00037" summary="pu dbug">
+      <created>1599728394289</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1599728394289</updated>
+    </task>
+    <task id="LOCAL-00038" summary="modif profil presque ok">
+      <created>1599729604708</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1599729604708</updated>
+    </task>
+    <task id="LOCAL-00039" summary="modif mdp ok">
+      <created>1599730692711</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1599730692711</updated>
+    </task>
+    <task id="LOCAL-00040" summary="mentionlegales">
+      <created>1599731374418</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1599731374418</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,12 +382,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="base et routing" />
-    <MESSAGE value="base et routing2" />
-    <MESSAGE value="lib" />
-    <MESSAGE value="lib off" />
-    <MESSAGE value="correction index" />
-    <MESSAGE value="index" />
     <MESSAGE value="inscr" />
     <MESSAGE value="image" />
     <MESSAGE value="quelques pages en +" />
@@ -367,7 +401,13 @@
     <MESSAGE value="mention legales" />
     <MESSAGE value="ptn" />
     <MESSAGE value="AZY LA" />
-    <option name="LAST_COMMIT_MESSAGE" value="AZY LA" />
+    <MESSAGE value="push sans erreur" />
+    <MESSAGE value="profil fini" />
+    <MESSAGE value="pu dbug" />
+    <MESSAGE value="modif profil presque ok" />
+    <MESSAGE value="modif mdp ok" />
+    <MESSAGE value="mentionlegales" />
+    <option name="LAST_COMMIT_MESSAGE" value="mentionlegales" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -382,14 +422,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599653487626" />
-    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599722915260">
+    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599731439374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599722915260" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599636984746">
+    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599731439374" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599724480974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599636984746" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599724480974" />
     <state x="644" y="305" width="258" height="213" key="Github.ShareDialog" timestamp="1599547863342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -398,18 +438,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="546" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599547870747" />
-    <state x="179" y="69" key="MergeDialog" timestamp="1599722865985">
+    <state x="179" y="69" key="MergeDialog" timestamp="1599728368823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="179" y="69" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722865985" />
-    <state x="513" y="132" key="MultipleFileMergeDialog" timestamp="1599722865993">
+    <state x="179" y="69" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1599728368823" />
+    <state x="513" y="132" key="MultipleFileMergeDialog" timestamp="1599728368833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="513" y="132" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722865993" />
-    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1599555890703">
+    <state x="513" y="132" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1599728368833" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1599728749365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599555890703" />
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599728749365" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1599550965934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -418,22 +458,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599651635501" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599722919104">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599731377726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599722919104" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599731377726" />
     <state x="497" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1599722678372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="497" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722678372" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599722824568">
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599731472259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599722824568" />
-    <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599722878756">
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599731472259" />
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599731485044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722878756" />
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599731485044" />
     <state x="640" y="305" key="publish.login" timestamp="1599570586843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
