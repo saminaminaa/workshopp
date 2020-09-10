@@ -1,4 +1,5 @@
 <?php
+
 function actionGestionmachines($twig,$db){
     $form = array();
     $machine = new Machine($db);
@@ -27,4 +28,9 @@ function actionGestionmachines($twig,$db){
         $form['Nom'] = $Nom;
     }
     echo $twig->render('gestionmachines.html.twig', array('listeMachine'=>$listeMachine));
+}
+
+function actionConsoMachine($twig){
+    echo $twig->render('consoMachine.html.twig', array());
+
 }

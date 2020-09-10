@@ -33,5 +33,6 @@ function actionMentionlegales($twig){
     echo $twig->render('mentionlegales.html.twig', array());
 }
 
-
-
+function actionMaintenance($twig){
+    echo $twig->render('maintenance.html.twig', array());
+}
