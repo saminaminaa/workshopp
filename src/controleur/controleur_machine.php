@@ -30,7 +30,30 @@ function actionGestionmachines($twig,$db){
     echo $twig->render('gestionmachines.html.twig', array('listeMachine'=>$listeMachine));
 }
 
-function actionConsoMachine($twig){
-    echo $twig->render('consoMachine.html.twig', array());
+function actionConsoMachine($twig,$db){
+    $form = array();
+    $machine = new Machine($db);
+    $listeMachine = $machine->select();
+
+    if(isset($_POST['btCalcul'])){
+        $Machine = $_POST["Machine"];
+        $Puissance = $_POST["Puissance"];
+        $Day = $_POST["Day"];
+        $Year = $_POST["Year"];
+
+        $Puissance = floatval($Puissance);
+        $Day = floatval($Day);
+        $Year = floatval($Year);
+
+        $Energie = ($Puissance * $Day * $Year)/1000;
+        print($Energie);
+
+        if($Energie != NULL){
+            
+        }
+
+
+    }
+    echo $twig->render('consoMachine.html.twig', array('listeMachine'=>$listeMachine));
 
 }
