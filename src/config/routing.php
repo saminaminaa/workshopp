@@ -14,6 +14,7 @@ function getPage()
     $lesPages['utilisateurs'] = "actionUtilisateurs";
     $lesPages['modifprofil'] = "actionModifprofil";
     $lesPages['gestionmachines'] = "actionGestionmachines";
+    $lesPages['mentionlegales'] = "actionMentionlegales";
 
 
 
