@@ -16,6 +16,11 @@ function actionApropos($twig){
     echo $twig->render('apropos.html.twig', array());
 }
 
+function actionGestionmachines($twig){
+    echo $twig->render('gestionmachines.html.twig', array());
+}
+
+
 function actionListeutilisateur($twig){
     echo $twig->render('listeutilisateur.html.twig', array());
 }
