@@ -8,9 +8,7 @@ function actionConsommation($twig){
     echo $twig->render('MaConso.html.twig', array());
 }
 
-function actionGestionmachines($twig){
-    echo $twig->render('gestionmachines.html.twig', array());
-}
+
 
 function actionApropos($twig){
     echo $twig->render('apropos.html.twig', array());
