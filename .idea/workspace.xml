@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controleur/_controleurs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/gestionmachines.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/arbre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/cadi.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/feuille.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/fille.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/off.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/prise.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/images/touche.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue/maintenance.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/ampoule.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/parametres.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/parametres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controleur/_controleur.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controleur/controleur_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controleur/controleur_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controleur/controleur_inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controleur/controleur_inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modele/class_utilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modele/class_utilisateur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modele/g" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/connexion.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/connexion.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/inscription.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/inscription.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fonts/g" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +94,7 @@
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
       <workItem from="1599635780070" duration="15123000" />
-      <workItem from="1599722667032" duration="114000" />
+      <workItem from="1599722667032" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -354,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599655754584</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="AZY LA">
+      <created>1599722916378</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1599722916378</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +342,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="repertoires" />
     <MESSAGE value="base et routing" />
     <MESSAGE value="base et routing2" />
     <MESSAGE value="lib" />
@@ -387,7 +366,8 @@
     <MESSAGE value="modif profil ok" />
     <MESSAGE value="mention legales" />
     <MESSAGE value="ptn" />
-    <option name="LAST_COMMIT_MESSAGE" value="ptn" />
+    <MESSAGE value="AZY LA" />
+    <option name="LAST_COMMIT_MESSAGE" value="AZY LA" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -402,10 +382,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599653487626" />
-    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599656717127">
+    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599722915260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599656717127" />
+    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599722915260" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599636984746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -438,10 +418,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599651635501" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599655856988">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599722919104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599655856988" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599722919104" />
     <state x="497" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1599722678372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
