@@ -15,6 +15,7 @@ class Utilisateur{
         $this->selectByEmail = $db->prepare("select id, email, idRole from Utilisateur u where email=:email");
         $this->update = $db->prepare("update Utilisateur");
         $this->updateMdp = $db->prepare("update Utilisateur set Password=:mdp where email=:email");
+
     }
 
     public function insert($email, $mdp, $role){ // Étape 3

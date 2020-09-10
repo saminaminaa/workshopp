@@ -37,3 +37,7 @@ function actionMentionlegales($twig){
 function actionMaintenance($twig){
     echo $twig->render('maintenance.html.twig', array());
 }
+
+function actionConsoAuto($twig){
+    echo $twig->render('consoAuto.html.twig',array());
+}
