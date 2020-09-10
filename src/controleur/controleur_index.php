@@ -29,5 +29,10 @@ function actionUtilisateurs($twig){
     echo $twig->render('utilisateurs.html.twig', array());
 }
 
+function actionMentionlegales($twig){
+    echo $twig->render('mentionlegales.html.twig', array());
+}
 
-
+function actionMaintenance($twig){
+    echo $twig->render('maintenance.html.twig', array());
+}
