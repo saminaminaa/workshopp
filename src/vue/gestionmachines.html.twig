@@ -4,70 +4,70 @@
 {% block MonBlock %}
 
 
-<div class="row" >
-    <div class="mx-auto text-center">
-        
-        <h3 style="text-align: center"> Gestions des machines </h3>
-        <div class="mx-auto" style="width: 900px;">
-            <table class="table">
-                <thead class="thead-dark ">
-                <tr class="bg-primary">
-                    <th scope="col">Nom de la machine</th>
-                    <th></th>
-                    <!-- <th scope="col">puissance ( en W)</th>
-                    <th scope="col">temps de consommation par jour</th>
-                    <th scope="col">nb de jour consommé par an</th>
-                    <th scope="col">conso (en kwh) </th>
-                    <th scope="col">prix total (en €)</th>
-                    <th></th> -->
-                </tr>
-                </thead>
-                <tbody>
-                {% for m in listeMachine%}
+    <div class="row" >
+        <div class="mx-auto text-center">
 
-                <tr>
-                    <td>{{ m.LibelleMachine }}</td>
-                    <!-- <td> 24 </td>
-                    <td>365</td>
-                    <td>350.40</td>
-                    <td>60</td> -->
+            <h3 style="text-align: center"> Gestions des machines </h3>
+            <div class="mx-auto" style="width: 900px;">
+                <table class="table">
+                    <thead class="thead-dark ">
+                    <tr class="bg-primary">
+                        <th scope="col">Nom de la machine</th>
+                        <th></th>
+                        <!-- <th scope="col">puissance ( en W)</th>
+                        <th scope="col">temps de consommation par jour</th>
+                        <th scope="col">nb de jour consommé par an</th>
+                        <th scope="col">conso (en kwh) </th>
+                        <th scope="col">prix total (en €)</th>
+                        <th></th> -->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for m in listeMachine%}
 
-                    <td>
-                        <ul class="nav justify-content-end">
+                        <tr>
+                            <td>{{ m.LibelleMachine }}</td>
+                            <!-- <td> 24 </td>
+                            <td>365</td>
+                            <td>350.40</td>
+                            <td>60</td> -->
 
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <a href="index.php?page=gestionmachines&id={{m.id}}"><path fill-rule="evenodd" d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7z"/>
-                            </a>
-                            </svg>
-                        </ul>
-                    </td>
+                            <td>
+                                <ul class="nav justify-content-end">
 
-                </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        </div><!-- <td>40</td>
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <a href="index.php?page=gestionmachines&id={{m.id}}"><path fill-rule="evenodd" d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7z"/>
+                                        </a>
+                                    </svg>
+                                </ul>
+                            </td>
+
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div><!-- <td>40</td>
 
 
 
 
 
         </div>-->
-        <br>
-        <div class="mx-auto" style="text-align: center;">
-            <h3> Ajouter une nouvelle machine :</h3>
-        </div>
-        <br/><br/>
-        <div class="mx-auto" style="width: 500px">
-            <form class="text-center" method="POST" action="index.php?page=gestionmachines">
-                <div class="form-group row">
+            <br>
+            <div class="mx-auto" style="text-align: center;">
+                <h3> Ajouter une nouvelle machine :</h3>
+            </div>
+            <br/><br/>
+            <div class="mx-auto" style="width: 500px">
+                <form class="text-center" method="POST" action="index.php?page=gestionmachines">
+                    <div class="form-group row">
                         <input type="text" id="Nom" name="Nom" class="form-control" placeholder="Nom de la machine" required autofocus>
-                </div>
-                <button type="submit" id="btAjouter" name="btAjouter" class="btn btn-lg btn-primary">Ajouter</button>
-            </form>
+                    </div>
+                    <button type="submit" id="btAjouter" name="btAjouter" class="btn btn-lg btn-primary">Ajouter</button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 
 
 {% endblock %}

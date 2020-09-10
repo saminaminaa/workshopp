@@ -12,7 +12,7 @@ class Utilisateur{
         $this->db = $db ;
         $this->insert = $db->prepare("insert into Utilisateur(Email, Password, idRole) values (:email, :mdp, :role)");   // Étape 2
         $this->connect = $db->prepare("select Email, idRole, Password from Utilisateur where email=:email");
-        $this->selectByEmail = $db->prepare("select email, idRole from Utilisateur u where email=:email");
+        $this->selectByEmail = $db->prepare("select id, email, idRole from Utilisateur u where email=:email");
         $this->update = $db->prepare("update Utilisateur");
         $this->updateMdp = $db->prepare("update Utilisateur set Password=:mdp where email=:email");
     }
