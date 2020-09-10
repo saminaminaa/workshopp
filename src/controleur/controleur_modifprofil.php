@@ -21,12 +21,12 @@ function actionModifprofil($twig, $db){
     else{
         if(isset($_POST['btModifier'])){
             $utilisateur = new Utilisateur($db);
-            $nom = $_POST['nom'];
-            $prenom = $_POST['prenom'];
-            $role = $_POST['role'];
+            /*$nom = $_POST['nom'];
+            $prenom = $_POST['prenom'];*/
+            /*$role = $_POST['role'];*/
             $email = $_POST['email'];
             $mdp = $_POST['mdp'];
-            $exec=$utilisateur->update($email, $role, $nom, $prenom); //modifier nom/prenom/role
+            $exec=$utilisateur->update($email); //modifier nom/prenom/role
             $exec=$utilisateur->updateMdp($email, password_hash($mdp, PASSWORD_DEFAULT)); //modifier mdp
             empty($mdp);
             if(!$exec){
