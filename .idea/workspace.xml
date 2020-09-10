@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vue/modifprofil.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/MaConso.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/MaConso.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -27,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -55,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/ce qui etait sur disque C/NetBeansProjects/ppe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/config" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -67,6 +66,7 @@
       <recent name="D:\EPSI B2\work\workshopp\workshop" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EPSI B2\work\workshopp\src\config" />
       <recent name="D:\EPSI B2\work\workshopp\src" />
     </key>
   </component>
@@ -93,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
-      <workItem from="1599635780070" duration="10561000" />
+      <workItem from="1599635780070" duration="15123000" />
+      <workItem from="1599722667032" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -312,7 +313,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599651697394</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="modif profil ok">
+      <created>1599652325370</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1599652325370</updated>
+    </task>
+    <task id="LOCAL-00033" summary="mention legales">
+      <created>1599655754584</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599655754584</updated>
+    </task>
+    <task id="LOCAL-00034" summary="AZY LA">
+      <created>1599722916378</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1599722916378</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,9 +342,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="t" />
-    <MESSAGE value="fichier" />
-    <MESSAGE value="repertoires" />
     <MESSAGE value="base et routing" />
     <MESSAGE value="base et routing2" />
     <MESSAGE value="lib" />
@@ -344,7 +363,11 @@
     <MESSAGE value="tite photo aie aie aie" />
     <MESSAGE value="french" />
     <MESSAGE value="profil mignon" />
-    <option name="LAST_COMMIT_MESSAGE" value="profil mignon" />
+    <MESSAGE value="modif profil ok" />
+    <MESSAGE value="mention legales" />
+    <MESSAGE value="ptn" />
+    <MESSAGE value="AZY LA" />
+    <option name="LAST_COMMIT_MESSAGE" value="AZY LA" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -355,14 +378,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1599556549749" />
-    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599637034012">
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599653487626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599637034012" />
-    <state x="393" y="106" key="CommitChangelistDialog2" timestamp="1599651695632">
+    <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599653487626" />
+    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599722915260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599651695632" />
+    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599722915260" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599636984746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -375,6 +398,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="546" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599547870747" />
+    <state x="179" y="69" key="MergeDialog" timestamp="1599722865985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="179" y="69" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722865985" />
+    <state x="513" y="132" key="MultipleFileMergeDialog" timestamp="1599722865993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="132" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722865993" />
     <state x="604" y="335" key="NewPhpFileDialog" timestamp="1599555890703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -387,14 +418,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599651635501" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599651700141">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599722919104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599651700141" />
-    <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599650381075">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599722919104" />
+    <state x="497" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1599722678372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599650381075" />
+    <state x="497" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722678372" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599722824568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599722824568" />
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog" timestamp="1599722878756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722878756" />
     <state x="640" y="305" key="publish.login" timestamp="1599570586843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
