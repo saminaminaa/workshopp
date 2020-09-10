@@ -1,7 +1,6 @@
 <?php
 
 function actionAccueil($twig) {
-var_dump($_SESSION);
     echo $twig->render('index.html.twig', array());
 }
 
