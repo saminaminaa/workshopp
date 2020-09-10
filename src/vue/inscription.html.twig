@@ -6,8 +6,17 @@
 
 {% block MonBlock %}
 
+    {% if form.valide == true %}
+        <div class="alert alert-danger" role="alert">
+            {{ form.message }}
+        </div>
 
-<body class="bg-gradient-primary">
+    {% else %}
+
+
+
+
+    <body class="bg-gradient-primary">
 
 <div class="container">
 
@@ -57,6 +66,7 @@
     </div>
 
 </div>
+    {% endif %}
 
 
 
