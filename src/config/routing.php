@@ -19,6 +19,7 @@ function getPage($db)
     $lesPages['mentionlegales'] = "actionMentionlegales;0";
     $lesPages['maintenance']= "actionMaintenance;0";
     $lesPages['consoAuto'] = "actionConsoAuto;0";
+    $lesPages['deconnexion'] = "actionDeconnexion;0";
 
 
 
