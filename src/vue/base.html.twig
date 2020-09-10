@@ -53,6 +53,14 @@
                 <span>Accueil</span></a>
         </li>
 
+        <hr class="sidebar-divider">
+
+        <li class="nav-item">
+            <a class="nav-link" href="index.php?page=gestionmachines">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Gerer les machines</span></a>
+        </li>
+
 
         <hr class="sidebar-divider">
 
@@ -79,19 +87,33 @@
 
         <hr class="sidebar-divider">
 
-        <!-- Nav Item - Charts -->
-        <li class="nav-item">
-            <a class="nav-link" href="index.php?page=connexion">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Connexion</span></a>
-        </li>
+        {%if session.login is defined %}
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?page=deconnexion">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Deconnexion</span></a>
+            </li>
+        {% else %}
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?page=connexion">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Connexion</span></a>
+            </li>
 
-        <!-- Nav Item - Tables -->
-        <li class="nav-item">
-            <a class="nav-link" href="index.php?page=inscription">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Inscription</span></a>
-        </li>
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?page=inscription">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Inscription</span></a>
+            </li>
+        {% endif %}
+        {%if session.login is defined %}
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?page=inscription">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>{{session.login}}</span></a>
+            </li>
+        {% endif %}
 
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">

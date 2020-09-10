@@ -1,4 +1,7 @@
 {% extends "base.html.twig" %}
+{% block title %} {{ parent() }} Se connecter {% endblock %}
+
+
 {% block MonBlock %}
     {#<br><br>
     <form>
@@ -41,23 +44,22 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Connectez vous</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" action="index.php?page=connexion" method="post" enctype="multipart/form-data">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Entrez votre adresse email...">
+                                            <input type="email" class="form-control form-control-user" id="Email" name="Email" aria-describedby="emailHelp" placeholder="Entrez votre adresse email...">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Mot de passe">
+                                            <input type="password" class="form-control form-control-user" id="Password" name="Password" placeholder="Mot de passe">
                                         </div>
 
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                            Connexion
-                                        </a>
+                                        <button class="btn btn-primary btn-user btn-block" type="submit" name="btConnecter" id="btConnecter">
+                                            Se connecter
+                                        </button>
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Inscription</a>
+                                        <a class="small" href="index.php?page=Inscription">S'inscrire</a>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
