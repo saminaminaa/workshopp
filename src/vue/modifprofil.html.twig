@@ -16,10 +16,10 @@
                     <input type="password" id="inputPassword" name="mdp" class="form-control" placeholder="Modifier le mot de passe">
                     <label for="inputPassword2" class="sr-only">Confirmation du mot de passe:</label>
                     <input type="password" id="inputPassword2" name="mdp2" class="form-control" placeholder="Confirmation mot de passe">
-                    <label for="inputName" class="sr-only">Nom :</label>
+                    {#<label for="inputName" class="sr-only">Nom :</label>
                     <input type="text" id="inputName" name="nom" class="form-control" placeholder="Nom" value="{{form.utilisateur.nom}}" required>
                     <label for="inputName" class="sr-only">Prénom :</label>
-                    <input type="prenom" id="inputName" name="prenom" class="form-control" placeholder="Prenom"  value="{{form.utilisateur.prenom}}" required>
+                    <input type="prenom" id="inputName" name="prenom" class="form-control" placeholder="Prenom"  value="{{form.utilisateur.prenom}}" required>#}
                     <select class="form-control" name="role">
                         { {% for r in form.roles %}
                             {% if r.id==form.utilisateur.idRole %} <!--selected permet de choisir une ligne par defaut dans une liste déroulante -->
