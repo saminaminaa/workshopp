@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664874cb-84ce-4491-b882-786b0b8676c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modele/class_role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/Bienvenue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/planete.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/parametres.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/parametres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modele/_classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modele/_classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue/inscription.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/inscription.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/sb-admin-2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/planete.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/planete.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,7 @@
       <updated>1599547835582</updated>
       <workItem from="1599547841627" duration="15839000" />
       <workItem from="1599635780070" duration="15123000" />
-      <workItem from="1599722667032" duration="9628000" />
+      <workItem from="1599722667032" duration="13276000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1599554541093</created>
@@ -397,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599736475870</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="role ok">
+      <created>1599738455146</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1599738455146</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +414,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="inscr" />
     <MESSAGE value="image" />
     <MESSAGE value="quelques pages en +" />
     <MESSAGE value="controleur" />
@@ -430,7 +438,8 @@
     <MESSAGE value="modif profil presque ok" />
     <MESSAGE value="modif mdp ok" />
     <MESSAGE value="mentionlegales" />
-    <option name="LAST_COMMIT_MESSAGE" value="mentionlegales" />
+    <MESSAGE value="role ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="role ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1599641901035">
@@ -445,10 +454,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599653487626" />
-    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599736474739">
+    <state x="393" y="73" key="CommitChangelistDialog2" timestamp="1599738453237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599736474739" />
+    <state x="393" y="73" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599738453237" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599724480974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -481,10 +490,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599651635501" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599736477843">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599738459721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599736477843" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599738459721" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1599737932442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -509,6 +518,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="640" y="305" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1599570586843" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1599739818179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599739818179" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599550956482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

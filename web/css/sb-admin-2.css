@@ -10,6 +10,16 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+#exemple-carrousel{
+  max-width: 700px;
+  min-height: 200px;
+
+  margin: 0 auto;
+}
+#exemple-carrousel img{
+}
+
 :root {
   --blue: #4e73df;
   --indigo: #6610f2;
@@ -11221,3 +11231,5 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+
+
