@@ -6,6 +6,18 @@
 
 {% block MonBlock %}
 
+    {% if form.valide is defined %}
+    {% if form.valide == true %}
+        <h2 class="text-center">Inscription réussie</h2>
+        <h2 class="text-center">Voici votre identifiant : {{ form.email }}</h2>
+        <h2 class="text-center">Vous pouvez maintentant vous connecter.</h2>
+    {% else %}
+        <h1 class="text-center">Echec de l'inscription</h1>
+        <h1 class="text-center">Erreur : {{ form.message }}</h1>
+        <h1 class="text-center"><a href="index.php?page=inscription">Retourner sur la page d'inscription</a> </h1>
+    {% endif %}
+    {% else %}
+
 
 <body class="bg-gradient-primary">
 
@@ -57,6 +69,7 @@
     </div>
 
 </div>
+    {% endif %}
 
 
 

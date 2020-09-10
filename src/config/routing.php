@@ -1,36 +1,21 @@
 <?php
-function getPage()
+function getPage($db)
 {
 
     $lesPages['accueil'] = "actionAccueil";
     $lesPages['connexion'] = "actionConnexion";
     $lesPages['inscription'] = "actionInscription";
     $lesPages['MaConso'] = "actionConsommation";
-    $lesPages['ajoutmachine'] = "actionAjoutmachine";
+    $lesPages['gestionmachines'] = "actionGestionmachines";
     $lesPages['apropos'] = "actionApropos";
     $lesPages['listeutilisateur'] = "actionListeutilisateur";
     $lesPages['modifmachine'] = "actionModifmachine";
     $lesPages['profil'] = "actionProfil";
     $lesPages['utilisateurs'] = "actionUtilisateurs";
-    $lesPages['modifprofil'] = "actionModifprofil";
+    $lesPages['deconnexion'] = "actionDeconnexion";
 
 
-    if(isset($_GET['page'])){
-        $page = $_GET['page'];
-    }
-    else{
-        $page = 'accueil';
-    }
-    if (!isset($lesPages[$page])){
-        $page = 'accueil';
-    }
-
-    $contenu = $lesPages[$page];
-
-
-    /*
-
-    //if ($db != null) {
+    if ($db != null) {
     if (isset($_GET['page'])) {
         $page = $_GET['page'];
     } else {
@@ -39,9 +24,8 @@ function getPage()
 
     if (!isset($lesPages[$page])) {
         $page = 'accueil';
-
     }
-     $explose = explode(";", $lesPages[$page]); // Nous découpons la ligne du tableau sur le  // caractère « ; » Le résultat est stocké dans le tableau $explose
+    /* $explose = explode(";", $lesPages[$page]); // Nous découpons la ligne du tableau sur le  // caractère « ; » Le résultat est stocké dans le tableau $explose
     $role = $explose[1]; // Le rôle est dans la 2ème partie du tableau $explose
     if ($role != 0) { // Si mon rôle nécessite une vérification
         if (isset($_SESSION['login'])) {  // Si je me suis authentifié
@@ -62,8 +46,10 @@ function getPage()
         $contenu = $explose[0]; //  Je récupère le contrôleur, car il n’a pas besoin d’avoir un rôle
     }
 */
-    //} else {
-    //    $contenu = $lesPages['actionMaintenance'];
-    //}
+        $contenu = $lesPages[$page];
+
+    } else {
+        $contenu = $lesPages['actionMaintenance'];
+    }
     return $contenu;
 }

@@ -1,7 +1,6 @@
 <?php
-$config['serveur']='localhost';
-$config['login'] = 'login4064';
-$config['mdp'] ='KkCQvRxWbbnlgFz';
-$config['bd'] = 'EcoConso';
+$config['serveur'] = 'localhost';
+$config['login'] = 'login4063';
+$config['mdp'] = 'KoxXhBrMGaimCmR';
+$config['bd'] = 'ecoconso';
 ?>
-
