@@ -49,7 +49,7 @@ function actionConsoMachine($twig,$db){
         print($Energie);
 
         if($Energie != NULL){
-            
+
         }
 
 
