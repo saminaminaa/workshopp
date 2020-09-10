@@ -23,6 +23,9 @@
         <button type="submit" id="btConnexion" name="btConnexion" class="btn btn-primary">Connexion</button>
     </form>
 #}
+    {% if form.valide == false %}
+        <h3>Login ou mot de passe incorrect</h3>
+    {% endif %}
 
     <body class="bg-gradient-primary">
 

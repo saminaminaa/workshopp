@@ -3,6 +3,7 @@ function getPage($db)
 {
 
     $lesPages['accueil'] = "actionAccueil;0";
+    $lesPages['deconnexion'] = "actionDeconnexion;0";
     $lesPages['connexion'] = "actionConnexion;0";
     $lesPages['inscription'] = "actionInscription;0";
     $lesPages['MaConso'] = "actionConsommation;0";
@@ -18,6 +19,7 @@ function getPage($db)
     $lesPages['mentionlegales'] = "actionMentionlegales;0";
     $lesPages['maintenance']= "actionMaintenance;0";
     $lesPages['consoAuto'] = "actionConsoAuto;0";
+    $lesPages['deconnexion'] = "actionDeconnexion;0";
 
 
 

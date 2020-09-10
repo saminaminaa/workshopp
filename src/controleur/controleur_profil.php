@@ -6,6 +6,7 @@ function actionProfil($twig, $db){
     $utilisateur = new Utilisateur($db); #instencier, pr pouvoir utiliser ce qu'on a mis dans la classe
     $unUtilisateur = $utilisateur->selectByEmail($_SESSION['login']); #recuperer qu'un seul utilisateur
 
+
     //supprimer un langage en cochant:
     //if(isset($_POST['btSupprimer'])){
         //$cocher = $_POST['cocher'];
