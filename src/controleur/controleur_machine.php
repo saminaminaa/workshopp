@@ -30,10 +30,7 @@ function actionGestionmachines($twig,$db){
     echo $twig->render('gestionmachines.html.twig', array('listeMachine'=>$listeMachine));
 }
 
-<<<<<<< HEAD
-function actionConsoMachine($twig){
-    echo $twig->render('consoMachine.html.twig', array());
-=======
+
 function actionConsoMachine($twig,$db){
     $form = array();
     $form['Calcul'] = false;
@@ -63,6 +60,5 @@ function actionConsoMachine($twig,$db){
         $exec = $machine->insertConso($unUtilisateur['id'],$Machine,$Puissance,$Day,$Year,$Energie,$Prix);
     }
     echo $twig->render('consoMachine.html.twig', array('listeMachine'=>$listeMachine,'Energie'=>$Energie, 'Prix'=>$Prix,'form'=>$form));
->>>>>>> dea8c354155b00a260406848d1af1a9d5c7f8b5b
 
 }
